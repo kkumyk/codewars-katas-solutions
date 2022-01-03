@@ -5,5 +5,4 @@ def max_diff(lst):
         return max(lst) - min(lst)
     else:
         return 0
-
-max_diff([1, 2, 3, -4])
+print("The difference is", max_diff([1, 2, 3, -4]))
