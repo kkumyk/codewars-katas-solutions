@@ -1,3 +1,4 @@
+# Max diff - easy - 7Kyu
 def max_diff(lst):
 
     if len(lst) != 0:
