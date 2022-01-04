@@ -1,3 +1,16 @@
+
+# Isograms - 7Kyu
+def is_isogram(string):
+    unique_len = len(set(string.lower()))
+    if unique_len < len(string):
+        return False
+    else:
+        return True
+
+print("Is this string an isogram? ", is_isogram('aba'))
+print("Is this string an isogram? ", is_isogram('Dermatoglyphics'))
+
+
 # Unique Sum - 7Kyu
 def unique_sum(lst):
     return sum(set(lst)) if lst else None
