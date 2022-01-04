@@ -1,4 +1,3 @@
-
 # Isograms - 7Kyu
 def is_isogram(string):
     unique_len = len(set(string.lower()))
