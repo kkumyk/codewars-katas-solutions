@@ -1,3 +1,17 @@
+#  Map over a list of lists - 7Kyu
+#  Write a function which maps a function over the lists in a list
+
+def grid_map(lst, op):  # which performs op(element) for all elements of lst
+    return [[*map(op, x)] for x in lst]
+
+
+# A List Comprehension follows the basic pattern:
+# [ <do something to item>  for  <item> in <list>]
+
+char_grid = [['h', 'E', 'l', 'l', 'O'], ['w', 'O', 'r', 'L', 'd']]
+print(grid_map(char_grid, lambda x: x.upper()))
+
+
 # Dictionary from two lists - 7Kyu
 
 #  1. return a dict from a list of keys and a list of values
