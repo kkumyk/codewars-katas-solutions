@@ -1,3 +1,21 @@
+#  Disorganised page lists - 7Kyu
+
+#  return an array with numbers that are out of place
+
+def find_page_number(pages):
+    n, miss = 1, []  # set n to 1 and an empty array miss for misplaced numbers
+
+    for i in pages:
+        if i != n:
+            miss.append(i)
+        else:
+            n += 1
+    return miss
+
+
+print(find_page_number([1, 2, 10, 3, 4, 5, 8, 6, 7]))
+
+
 #  Map over a list of lists - 7Kyu
 #  Write a function which maps a function over the lists in a list
 
