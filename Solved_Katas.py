@@ -1,3 +1,14 @@
+#  Capitalization and Mutability - 8Kyu
+# fix the function below:
+# def capitalize_word(word):
+#     return "".join(char.upper() for char in word)
+
+def capitalize_word(word):
+    return word.capitalize()
+
+capitalize_word('word')
+
+
 #  Disorganised page lists - 7Kyu
 
 #  return an array with numbers that are out of place
