@@ -1,3 +1,12 @@
+
+
+
+# repeatIt - 8Kyu
+def repeat_it(string, n):
+    return string * n
+
+print(repeat_it('Hello', 3))
+
 #  Capitalization and Mutability - 8Kyu
 # fix the function below:
 # def capitalize_word(word):
