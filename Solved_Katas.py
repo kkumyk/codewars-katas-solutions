@@ -1,3 +1,13 @@
+# Duplicate sandwich - 7Kyu
+def duplicate_sandwich(arr):
+    start, end = [i for i, x in enumerate(arr) if arr.count(x) > 1]
+    print(start)
+    print(end)
+    return arr[start+1:end]
+
+
+print(duplicate_sandwich([0, 1, 2, 3, 4, 5, 6, 1, 7, 8]))
+
 # String cleaning - 8Kyu
 def string_clean(s):
     return ''.join([i for i in s if not i.isdigit()])
@@ -11,22 +21,19 @@ print(string_clean('E3at m2e2!'))
 # Create a function that takes a string and an integer (n).
 # The function should return a string that repeats the input string n number of times.
 # If anything other than a string is passed in you should return "Not a string"
-def repeat_it(string, n):
+def repeat_it(string,n):
     return string * n if type(string) == str else 'Not a string'
-
 
 print(repeat_it("*-*", 5))
 
 
 # Alternative solution using isinstance function which returns True if the specified object is of the specified type,
-# otherwise Falce:
+# otherwise False:
 
 def repeat_it(string, n):
     return string * n if isinstance(string, str) else 'Not a string'
 
-
 print(repeat_it("*^*", 5))
-
 
 #  Capitalization and Mutability - 8Kyu
 # fix the function below:
@@ -35,7 +42,6 @@ print(repeat_it("*^*", 5))
 
 def capitalize_word(word):
     return word.capitalize()
-
 
 capitalize_word('word')
 
