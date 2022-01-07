@@ -1,4 +1,9 @@
+# String cleaning - 8Kyu
+def string_clean(s):
+    return ''.join([i for i in s if not i.isdigit()])
 
+
+print(string_clean('E3at m2e2!'))
 
 
 # repeatIt - 8Kyu
@@ -6,8 +11,9 @@
 # Create a function that takes a string and an integer (n).
 # The function should return a string that repeats the input string n number of times.
 # If anything other than a string is passed in you should return "Not a string"
-def repeat_it(string,n):
+def repeat_it(string, n):
     return string * n if type(string) == str else 'Not a string'
+
 
 print(repeat_it("*-*", 5))
 
@@ -18,7 +24,9 @@ print(repeat_it("*-*", 5))
 def repeat_it(string, n):
     return string * n if isinstance(string, str) else 'Not a string'
 
+
 print(repeat_it("*^*", 5))
+
 
 #  Capitalization and Mutability - 8Kyu
 # fix the function below:
@@ -27,6 +35,7 @@ print(repeat_it("*^*", 5))
 
 def capitalize_word(word):
     return word.capitalize()
+
 
 capitalize_word('word')
 
