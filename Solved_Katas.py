@@ -1,12 +1,27 @@
+# Sum of a nested list - 7Kyu
+def sum_nested(lst):
+    total = 0
+    for i in lst:
+        if isinstance(i, list):  # checks if `i` is a list
+            total += sum_nested(i)
+        else:
+            total += i
+    return total
+
+
+print("The sum of this nested list is:", sum_nested([1, [1], [[1]], [[[1]]]]))
+
+
 # Duplicate sandwich - 7Kyu
 def duplicate_sandwich(arr):
     start, end = [i for i, x in enumerate(arr) if arr.count(x) > 1]
     print(start)
     print(end)
-    return arr[start+1:end]
+    return arr[start + 1:end]
 
 
 print(duplicate_sandwich([0, 1, 2, 3, 4, 5, 6, 1, 7, 8]))
+
 
 # String cleaning - 8Kyu
 def string_clean(s):
@@ -21,8 +36,9 @@ print(string_clean('E3at m2e2!'))
 # Create a function that takes a string and an integer (n).
 # The function should return a string that repeats the input string n number of times.
 # If anything other than a string is passed in you should return "Not a string"
-def repeat_it(string,n):
+def repeat_it(string, n):
     return string * n if type(string) == str else 'Not a string'
+
 
 print(repeat_it("*-*", 5))
 
@@ -33,7 +49,9 @@ print(repeat_it("*-*", 5))
 def repeat_it(string, n):
     return string * n if isinstance(string, str) else 'Not a string'
 
+
 print(repeat_it("*^*", 5))
+
 
 #  Capitalization and Mutability - 8Kyu
 # fix the function below:
@@ -42,6 +60,7 @@ print(repeat_it("*^*", 5))
 
 def capitalize_word(word):
     return word.capitalize()
+
 
 capitalize_word('word')
 
