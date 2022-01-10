@@ -1,13 +1,36 @@
+# Slice the middle of a list backwards - 7Kyu
+"""Write a function that takes a list of at least four elements as an argument and
+returns a list of the middle two or three elements in reverse order."""
+
+
+def reverse_middle(lst):
+    middle = int(len(lst) / 2)
+    nr_of_int_to_return = len(lst) - middle
+
+    non_reverse_list = lst[middle - 1:nr_of_int_to_return + 1]
+
+    reversed_list = non_reverse_list[::-1]
+
+    return reversed_list
+
+
+print("Reverse middle solution", reverse_middle([1, 2, 3, 4, 5]))
+
+
+
+
+
 # Remove the minimum - 7Kyu
 """Given an array of integers, remove the smallest value. Do not mutate the original array/list.
 If there are multiple elements with the same value, remove the one with a low"""
 
+
 def remove_smallest(numbers):
     if numbers == []:
         return []
-
-    first_occurence_of_min = numbers.index(min(numbers))
-    return numbers[:first_occurence_of_min] + numbers[first_occurence_of_min+1:]
+    else:
+        first_occurrence_of_min = numbers.index(min(numbers))
+        return numbers[:first_occurrence_of_min] + numbers[first_occurrence_of_min + 1:]
 
 
 print(remove_smallest([1, 2, 3, 1, 1]))
@@ -23,6 +46,7 @@ This makes defaultdict a valuable option for handling missing keys in dictionari
 
 from collections import defaultdict
 
+
 def repeat_sum(l):
     count = defaultdict(int)
 
@@ -31,6 +55,7 @@ def repeat_sum(l):
             count[val] += 1
 
     return sum(k for k, v in count.items() if v > 1)
+
 
 print("The sum is", repeat_sum([[1, 2], [2, 4], [3, 4, 4, 4], [123456789]]))
 
@@ -98,6 +123,7 @@ def repeat_sum(l):
             count[val] += 1
 
     return sum(k for k, v in count.items() if v > 1)
+
 
 #  Capitalization and Mutability - 8Kyu
 # fix the function below:
