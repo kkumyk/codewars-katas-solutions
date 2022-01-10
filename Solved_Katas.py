@@ -1,3 +1,16 @@
+# Remove the minimum - 7Kyu
+"""Given an array of integers, remove the smallest value. Do not mutate the original array/list.
+If there are multiple elements with the same value, remove the one with a low"""
+
+def remove_smallest(numbers):
+    if numbers == []:
+        return []
+
+    first_occurence_of_min = numbers.index(min(numbers))
+    return numbers[:first_occurence_of_min] + numbers[first_occurence_of_min+1:]
+
+
+print(remove_smallest([1, 2, 3, 1, 1]))
 
 # Sum the Repeats - 7Kyu
 # sum up all numbers that appear in two or more lists in the input list
@@ -16,7 +29,6 @@ def repeat_sum(l):
     for l1 in l:
         for val in set(l1):
             count[val] += 1
-            print(count.items())
 
     return sum(k for k, v in count.items() if v > 1)
 
