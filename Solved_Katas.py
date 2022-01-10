@@ -1,3 +1,28 @@
+
+# Sum the Repeats - 7Kyu
+# sum up all numbers that appear in two or more lists in the input list
+
+
+"""The standard library provides the Python defaultdict type - a dictionary-like clas
+behaves almost exactly like a regular Python dictionary, but if you try to access or modify a missing key,
+then defaultdict will automatically create the key and generate a default value for it.
+This makes defaultdict a valuable option for handling missing keys in dictionaries."""
+
+from collections import defaultdict
+
+def repeat_sum(l):
+    count = defaultdict(int)
+
+    for l1 in l:
+        for val in set(l1):
+            count[val] += 1
+            print(count.items())
+
+    return sum(k for k, v in count.items() if v > 1)
+
+print("The sum is", repeat_sum([[1, 2], [2, 4], [3, 4, 4, 4], [123456789]]))
+
+
 # Sum of a nested list - 7Kyu
 def sum_nested(lst):
     total = 0
@@ -51,7 +76,16 @@ def repeat_it(string, n):
 
 
 print(repeat_it("*^*", 5))
+from collections import defaultdict
 
+
+def repeat_sum(l):
+    count = defaultdict(int)
+    for l1 in l:
+        for val in set(l1):
+            count[val] += 1
+
+    return sum(k for k, v in count.items() if v > 1)
 
 #  Capitalization and Mutability - 8Kyu
 # fix the function below:
