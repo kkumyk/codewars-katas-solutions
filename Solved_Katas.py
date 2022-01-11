@@ -13,6 +13,7 @@ def area_or_perimeter(l, w):
 print(area_or_perimeter(3, 3))
 
 
+
 # Baby shark lyrics generator - 7Kyu
 # Create a function, as short as possible, that returns baby shark lyrics.
 
