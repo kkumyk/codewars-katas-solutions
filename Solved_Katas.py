@@ -1,3 +1,17 @@
+# Area or Perimeter - 8Kyu
+"""You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
+If it is a square, return its area. If it is a rectangle, return its perimeter."""
+
+
+def area_or_perimeter(l, w):
+    if l == w:
+        return l * w
+    else:
+        return l * 2 + w * 2
+
+
+print(area_or_perimeter(3, 3))
+
 
 # Baby shark lyrics generator - 7Kyu
 # Create a function, as short as possible, that returns baby shark lyrics.
@@ -5,11 +19,12 @@
 
 def baby_shark_lyrics():
     d = ' doo' * 6
-    prs= ['Baby ', 'Mommy ', 'Daddy ', 'Grandma ', 'Grandpa ']
+    prs = ['Baby ', 'Mommy ', 'Daddy ', 'Grandma ', 'Grandpa ']
     s = ""
     for p in prs:
-        s += (p +'shark,'+d +'\n')* 3 + (p + 'shark!\n')
-    return s + ("Let's go hunt," +d +'\n')*3+ ("Let's go hunt!\n") + "Run away,…"
+        s += (p + 'shark,' + d + '\n') * 3 + (p + 'shark!\n')
+    return s + ("Let's go hunt," + d + '\n') * 3 + ("Let's go hunt!\n") + "Run away,…"
+
 
 print(baby_shark_lyrics())
 
@@ -30,10 +45,6 @@ def reverse_middle(lst):
 
 
 print("Reverse middle solution", reverse_middle([1, 2, 3, 4, 5]))
-
-
-
-
 
 # Remove the minimum - 7Kyu
 """Given an array of integers, remove the smallest value. Do not mutate the original array/list.
