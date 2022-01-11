@@ -1,3 +1,18 @@
+
+# Baby shark lyrics generator - 7Kyu
+# Create a function, as short as possible, that returns baby shark lyrics.
+
+
+def baby_shark_lyrics():
+    d = ' doo' * 6
+    prs= ['Baby ', 'Mommy ', 'Daddy ', 'Grandma ', 'Grandpa ']
+    s = ""
+    for p in prs:
+        s += (p +'shark,'+d +'\n')* 3 + (p + 'shark!\n')
+    return s + ("Let's go hunt," +d +'\n')*3+ ("Let's go hunt!\n") + "Run away,…"
+
+print(baby_shark_lyrics())
+
 # Slice the middle of a list backwards - 7Kyu
 """Write a function that takes a list of at least four elements as an argument and
 returns a list of the middle two or three elements in reverse order."""
