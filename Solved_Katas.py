@@ -1,20 +1,7 @@
 # Is it a palindrome? - 8Kyu
 def is_palindrome(s):
-    res = []
-
-    if len(s) > 1:
-        for i in s.lower():
-            res.append(ord(i))
-
-        if sum(res) % 2 != 0:
-            return False
-        else:
-            return True
-
-    return True
-
-
-
+    return s.lower() == s.lower()[::-1]
+print(is_palindrome('AAAAAAAAAAAAAAAAAAAAAAA'))
 
 # Is it even? - 8Kyu
 def is_even(n):
