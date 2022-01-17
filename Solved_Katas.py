@@ -1,3 +1,27 @@
+# Sum without highest and lowest number - 8Kyu
+
+def sum_array(arr):
+    sorted_arr = []
+    sum_res = []
+
+    if not arr:
+        return 0
+
+    elif arr:
+        sorted_arr = sorted(arr)
+
+        if len(sorted_arr) > 1:
+            sum_res = sorted_arr[1:-1]
+            return sum(sum_res)
+        elif len(sorted_arr) == 1:
+            return 0
+
+    else:
+        return 0
+
+
+print(sum_array([6, 2, 1, 8, 10]))
+
 # Difference of Volumes of Cuboids - 8kYU
 
 def find_difference(a, b):
