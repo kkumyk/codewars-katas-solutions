@@ -1,3 +1,48 @@
+# Difference of Volumes of Cuboids - 8kYU
+
+def find_difference(a, b):
+    x = a[0]*a[1]*a[2]
+    y = b[0]*b[1]*b[2]
+    return max(x, y)-min(x, y)
+
+print(find_difference([2, 2, 3], [5, 4, 1]))
+
+# 16+18=214 7Kyu
+
+def add(num1, num2):
+    odd_one = []
+    sum_nums = []
+
+    one = [int(i) for i in str(num1)]
+    two = [int(i) for i in str(num2)]
+
+    if len(one) < len(two):
+        len_dif = int(len(two) - len(one))
+        d = two[:len_dif]
+        temp_list = two[len_dif:]
+        sum_nums += [sum(pair) for pair in zip(temp_list, one)]
+        string_ints = [str(int) for int in d] + [str(int) for int in odd_one] + [str(int) for int in sum_nums]
+        str_of_ints = int("".join(string_ints))
+        return str_of_ints
+
+    elif len(one) > len(two):
+        len_dif = int(len(one) - len(two))
+        d = one[:len_dif]
+        temp_list = one[len_dif:]
+        sum_nums += [sum(pair) for pair in zip(temp_list, two)]
+        string_ints = [str(int) for int in d] + [str(int) for int in odd_one] + [str(int) for int in sum_nums]
+        str_of_ints = int("".join(string_ints))
+        return str_of_ints
+    else:
+        sum_nums += [sum(pair) for pair in zip(one, two)]
+        string_ints = [str(int) for int in sum_nums]
+        str_of_ints = int("".join(string_ints))
+        return str_of_ints
+
+
+print(add(122, 81))
+
+
 # Is it a palindrome? - 8Kyu
 def is_palindrome(s):
     return s.lower() == s.lower()[::-1]
