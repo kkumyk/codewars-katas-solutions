@@ -1,3 +1,23 @@
+# Combine objects - 7Kyu
+def combine(*args):
+    comb = {}
+    for i in args:
+        for k,v in i.items():
+            if k in comb:
+                comb[k] += v
+            else:
+                comb[k] = v
+    return comb
+
+print(combine({ 'a': 10, 'b': 20, 'c': 30 }, { 'a': 3, 'c': 6, 'd': 3 }))
+
+
+"""
+The items() method returns a view object. The view object contains the k-v pairs of the dictionary, as tuples in a list.
+The view object will reflect any changes done to the dictionary.
+"""
+
+
 # Sum without highest and lowest number - 8Kyu
 
 def sum_array(arr):
