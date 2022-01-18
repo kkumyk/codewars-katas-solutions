@@ -1,3 +1,15 @@
+# Lost number in number sequence - 7Kyu
+
+
+def find_deleted_number(arr, mixed_arr):
+    if len(arr)!=len(mixed_arr):
+        num_dif = list(set(arr) - set(mixed_arr))
+        return int("".join(str(e) for e in num_dif))
+    else:
+        return 0
+
+print(find_deleted_number([1,2,3,4,5], [3,4,1,5]))
+
 # Combine objects - 7Kyu
 def combine(*args):
     comb = {}
