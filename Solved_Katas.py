@@ -1,9 +1,38 @@
+# Testing 1-2-3 - 7Kyu
+
+def number(lines):
+    res = []
+    x = ''
+    dictA = {}
+    l = len(lines)
+
+    if l > 0:
+        for i in range(1, len(lines) + 1):
+            res.append(str(i))
+            dictA = dict(zip(res, lines))
+            x = (''.join(f'{k}:{v} ' for k, v in dictA.items())).split()
+            new_strings = []
+
+            for string in x:
+                new_string = string.replace(":", ": ")
+                new_strings.append(new_string)
+
+        return new_strings
+
+    else:
+        return []
+
+
+
 # Lost number in number sequence - 7Kyu
 
 
 def find_deleted_number(arr, mixed_arr):
-    if len(arr)!=len(mixed_arr):
+    if len(arr) != len(mixed_arr):
+        print(set(arr))
+        print(set(mixed_arr))
         num_dif = list(set(arr) - set(mixed_arr))
+
         return int("".join(str(e) for e in num_dif))
     else:
         return 0
