@@ -1,27 +1,14 @@
 # Testing 1-2-3 - 7Kyu
 
 def number(lines):
-    res = []
-    x = ''
-    dictA = {}
-    l = len(lines)
+    numbered_lines = []
+    for n, text in enumerate(lines):
+        numbered_lines.append(str(n + 1) + ": " + text)
 
-    if l > 0:
-        for i in range(1, len(lines) + 1):
-            res.append(str(i))
-            dictA = dict(zip(res, lines))
-            x = (''.join(f'{k}:{v} ' for k, v in dictA.items())).split()
-            new_strings = []
+    return numbered_lines
 
-            for string in x:
-                new_string = string.replace(":", ": ")
-                new_strings.append(new_string)
 
-        return new_strings
-
-    else:
-        return []
-
+print(number(["a", "b", "c"]))
 
 
 # Lost number in number sequence - 7Kyu
@@ -37,21 +24,23 @@ def find_deleted_number(arr, mixed_arr):
     else:
         return 0
 
-print(find_deleted_number([1,2,3,4,5], [3,4,1,5]))
+
+print(find_deleted_number([1, 2, 3, 4, 5], [3, 4, 1, 5]))
+
 
 # Combine objects - 7Kyu
 def combine(*args):
     comb = {}
     for i in args:
-        for k,v in i.items():
+        for k, v in i.items():
             if k in comb:
                 comb[k] += v
             else:
                 comb[k] = v
     return comb
 
-print(combine({ 'a': 10, 'b': 20, 'c': 30 }, { 'a': 3, 'c': 6, 'd': 3 }))
 
+print(combine({'a': 10, 'b': 20, 'c': 30}, {'a': 3, 'c': 6, 'd': 3}))
 
 """
 The items() method returns a view object. The view object contains the k-v pairs of the dictionary, as tuples in a list.
@@ -83,14 +72,17 @@ def sum_array(arr):
 
 print(sum_array([6, 2, 1, 8, 10]))
 
+
 # Difference of Volumes of Cuboids - 8kYU
 
 def find_difference(a, b):
-    x = a[0]*a[1]*a[2]
-    y = b[0]*b[1]*b[2]
-    return max(x, y)-min(x, y)
+    x = a[0] * a[1] * a[2]
+    y = b[0] * b[1] * b[2]
+    return max(x, y) - min(x, y)
+
 
 print(find_difference([2, 2, 3], [5, 4, 1]))
+
 
 # 16+18=214 7Kyu
 
@@ -131,11 +123,15 @@ print(add(122, 81))
 # Is it a palindrome? - 8Kyu
 def is_palindrome(s):
     return s.lower() == s.lower()[::-1]
+
+
 print(is_palindrome('AAAAAAAAAAAAAAAAAAAAAAA'))
+
 
 # Is it even? - 8Kyu
 def is_even(n):
-    return (n%2) == 0
+    return (n % 2) == 0
+
 
 # Area or Perimeter - 8Kyu
 """You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
@@ -150,7 +146,6 @@ def area_or_perimeter(l, w):
 
 
 print(area_or_perimeter(3, 3))
-
 
 
 # Baby shark lyrics generator - 7Kyu
