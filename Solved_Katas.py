@@ -1,3 +1,11 @@
+# String Merge! - 7Kyu
+
+def string_merge(string1, string2, letter):
+    res = string1[:string1.index(letter)] + string2[string2.index(letter):]
+    return res
+
+print(string_merge("hello", "world", "l"))
+
 # Credit Card Mask - 7Kyu
 
 # return masked string
