@@ -1,4 +1,26 @@
 
+
+# Sum of integers in string - 7Kyu
+# https://www.codewars.com/kata/598f76a44f613e0e0b000026/train/python
+def sum_of_integers_in_string(s):
+    sum = 0
+    new_str = ''
+    v = []
+    for w in s:
+        for l in w:
+            v.append(l)
+    print(v)
+    new_strings = []
+    for e in v:
+        if e.isalpha():
+            new_strings.append(e.replace(e ,'-'))
+        elif e.isdigit():
+            new_strings.append(e)
+
+    print("".join(new_strings))
+
+
+
 # Sort Numbers - 7Kyu
 
 def solution(nums):
@@ -6,7 +28,7 @@ def solution(nums):
         return sorted(nums)
     else:
         return []
-print(solution([1,2,3,10,5]))
+print(solution([1, 2, 3, 10, 5]))
 
 # String Merge! - 7Kyu
 
