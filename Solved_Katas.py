@@ -1,4 +1,21 @@
-# orm The Minimum - 7Kyu
+# Credit Card Mask - 7Kyu
+
+# return masked string
+def maskify(cc):
+    if len(cc) >= 4:
+        last_four_if_aval = cc[-4:]
+        sub_str = (len(cc) - 4) * '#'
+        return sub_str + last_four_if_aval
+
+    elif len(cc) < 4 and len(cc) > 0:
+        return cc
+
+    else:
+        return ''
+
+print(maskify("4556364607935616"))
+
+# Form The Minimum - 7Kyu
 
 def min_value(digits):
     return int("".join(map(str, sorted(set(digits)))))
