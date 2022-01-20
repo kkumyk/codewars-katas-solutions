@@ -1,3 +1,11 @@
+# orm The Minimum - 7Kyu
+
+def min_value(digits):
+    return int("".join(map(str, sorted(set(digits)))))
+
+print(min_value([1, 3, 1]))
+
+
 # Testing 1-2-3 - 7Kyu
 
 def number(lines):
