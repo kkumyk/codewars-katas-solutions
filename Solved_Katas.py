@@ -1,3 +1,13 @@
+
+# Sort Numbers - 7Kyu
+
+def solution(nums):
+    if nums:
+        return sorted(nums)
+    else:
+        return []
+print(solution([1,2,3,10,5]))
+
 # String Merge! - 7Kyu
 
 def string_merge(string1, string2, letter):
