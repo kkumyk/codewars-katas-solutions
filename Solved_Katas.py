@@ -427,11 +427,17 @@ print("Is this string an isogram? ", is_isogram('Dermatoglyphics'))
 
 
 # Unique Sum - 7Kyu
-def unique_sum(lst):
+def unique_sum_1(lst):
     return sum(set(lst)) if lst else None
 
+print("The unique sum of the numbers in a given list is: ", unique_sum_1([2, 3, 3, 3]))
 
-print("The unique sum of the numbers in a given list is: ", unique_sum([2, 3, 3, 3]))
+
+def unique_sum_2(lst):
+    return sum(list(dict.fromkeys(lst))) if lst else None
+print("The unique sum of the numbers in a given list is: ", unique_sum_2([2, 3, 3, 3, 6, 666, 666]))
+
+
 
 
 # Max diff - easy - 7Kyu
