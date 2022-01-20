@@ -1,3 +1,13 @@
+# Incrementer - 7Kyu
+def incrementer(nums):
+    res = []
+    for i, n in enumerate(nums):
+        res.append(int(str(n + (i + 1))[-1]))
+
+    return res
+
+print(incrementer([1, 2, 3]))
+
 
 
 # Sum of integers in string - 7Kyu
