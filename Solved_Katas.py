@@ -1,3 +1,18 @@
+# Sort array by string length - 7Kyu
+def sort_by_length(arr):
+    el_len = []
+    for e in arr:
+        el_len.append(len(e))
+    list_of_tuples_sorted_by_first_el = sorted(list(zip(el_len ,arr)), key=lambda x: x[0])
+
+    final_list = [sub[1] for sub in list_of_tuples_sorted_by_first_el]
+
+    return final_list
+
+
+print(sort_by_length(["beg", "life", "i", "to"]))
+
+
 # Incrementer - 7Kyu
 def incrementer(nums):
     res = []
