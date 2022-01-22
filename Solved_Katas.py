@@ -1,3 +1,15 @@
+# Closest to Zero - 7Kyu
+def closest(numbers):
+    if 0 in numbers:
+        return 0
+
+    sorted_numbers = sorted(numbers, key=lambda x: abs(x))
+    if (-sorted_numbers[0] in numbers):
+        return None
+    return sorted_numbers[0]
+
+print(closest([2, 4, -1, -3]))
+
 # Sort array by string length - 7Kyu
 def sort_by_length(arr):
     el_len = []
