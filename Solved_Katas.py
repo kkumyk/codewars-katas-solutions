@@ -1,3 +1,13 @@
+# Don't give me five! - 7Kyu
+
+def dont_give_me_five(start, end):
+    nums = list(range(start, end+1))
+    string_ints = [str(int) for int in nums]
+    matching = [s for s in string_ints if "5" in s]
+    return len(list(set(string_ints) - set(matching)))
+
+print(dont_give_me_five(5, 34))
+
 # Closest to Zero - 7Kyu
 def closest(numbers):
     if 0 in numbers:
