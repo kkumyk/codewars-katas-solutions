@@ -1,3 +1,10 @@
+# Find the middle element - 7Kyu
+
+def gimme(input_array):
+    return input_array.index(sorted(input_array)[1])
+
+print(gimme([2, 3, 1]))
+
 # Sum of a sequence - 7Kyu
 
 def sequence_sum(begin_number, end_number, step):
