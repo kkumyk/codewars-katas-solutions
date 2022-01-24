@@ -1,3 +1,12 @@
+# Sum of a sequence - 7Kyu
+
+def sequence_sum(begin_number, end_number, step):
+    return sum(list(range(begin_number, end_number+1, step)))
+
+print(sequence_sum(2, 6, 2))
+
+
+
 # Don't give me five! - 7Kyu
 
 def dont_give_me_five(start, end):
