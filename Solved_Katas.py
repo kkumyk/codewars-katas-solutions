@@ -1,28 +1,60 @@
+# Reverse and Invert - 7Kyu
+
+def reverse_invert(lst):
+    nums = [num for num in lst if isinstance(num, (int))]
+    strings = list(map(str, nums))
+
+    a = []
+    b = []
+    for e in strings:
+        if "-" in e:
+            a.append(e.replace("-", "")[::-1])
+            b.append(1)
+        else:
+            a.append(e[::-1])
+            b.append(-1)
+
+    cleaned = [int(x) for x in a]
+    print(cleaned)
+
+    products = []
+    for num1, num2 in zip(b, cleaned):
+        products.append(num1 * num2)
+    return products
+
+
+print(reverse_invert([-9, -18, 99]))
+
+
 # Find the middle element - 7Kyu
 
 def gimme(input_array):
     return input_array.index(sorted(input_array)[1])
 
+
 print(gimme([2, 3, 1]))
+
 
 # Sum of a sequence - 7Kyu
 
 def sequence_sum(begin_number, end_number, step):
-    return sum(list(range(begin_number, end_number+1, step)))
+    return sum(list(range(begin_number, end_number + 1, step)))
+
 
 print(sequence_sum(2, 6, 2))
-
 
 
 # Don't give me five! - 7Kyu
 
 def dont_give_me_five(start, end):
-    nums = list(range(start, end+1))
+    nums = list(range(start, end + 1))
     string_ints = [str(int) for int in nums]
     matching = [s for s in string_ints if "5" in s]
     return len(list(set(string_ints) - set(matching)))
 
+
 print(dont_give_me_five(5, 34))
+
 
 # Closest to Zero - 7Kyu
 def closest(numbers):
@@ -34,14 +66,16 @@ def closest(numbers):
         return None
     return sorted_numbers[0]
 
+
 print(closest([2, 4, -1, -3]))
+
 
 # Sort array by string length - 7Kyu
 def sort_by_length(arr):
     el_len = []
     for e in arr:
         el_len.append(len(e))
-    list_of_tuples_sorted_by_first_el = sorted(list(zip(el_len ,arr)), key=lambda x: x[0])
+    list_of_tuples_sorted_by_first_el = sorted(list(zip(el_len, arr)), key=lambda x: x[0])
 
     final_list = [sub[1] for sub in list_of_tuples_sorted_by_first_el]
 
@@ -59,8 +93,8 @@ def incrementer(nums):
 
     return res
 
-print(incrementer([1, 2, 3]))
 
+print(incrementer([1, 2, 3]))
 
 
 # Sum of integers in string - 7Kyu
@@ -76,12 +110,11 @@ def sum_of_integers_in_string(s):
     new_strings = []
     for e in v:
         if e.isalpha():
-            new_strings.append(e.replace(e ,'-'))
+            new_strings.append(e.replace(e, '-'))
         elif e.isdigit():
             new_strings.append(e)
 
     print("".join(new_strings))
-
 
 
 # Sort Numbers - 7Kyu
@@ -91,7 +124,10 @@ def solution(nums):
         return sorted(nums)
     else:
         return []
+
+
 print(solution([1, 2, 3, 10, 5]))
+
 
 # String Merge! - 7Kyu
 
@@ -99,7 +135,9 @@ def string_merge(string1, string2, letter):
     res = string1[:string1.index(letter)] + string2[string2.index(letter):]
     return res
 
+
 print(string_merge("hello", "world", "l"))
+
 
 # Credit Card Mask - 7Kyu
 
@@ -116,12 +154,15 @@ def maskify(cc):
     else:
         return ''
 
+
 print(maskify("4556364607935616"))
+
 
 # Form The Minimum - 7Kyu
 
 def min_value(digits):
     return int("".join(map(str, sorted(set(digits)))))
+
 
 print(min_value([1, 3, 1]))
 
@@ -493,14 +534,15 @@ print("Is this string an isogram? ", is_isogram('Dermatoglyphics'))
 def unique_sum_1(lst):
     return sum(set(lst)) if lst else None
 
+
 print("The unique sum of the numbers in a given list is: ", unique_sum_1([2, 3, 3, 3]))
 
 
 def unique_sum_2(lst):
     return sum(list(dict.fromkeys(lst))) if lst else None
+
+
 print("The unique sum of the numbers in a given list is: ", unique_sum_2([2, 3, 3, 3, 6, 666, 666]))
-
-
 
 
 # Max diff - easy - 7Kyu
