@@ -1,29 +1,46 @@
+import pytest
+
+
 # Reverse and Invert - 7Kyu
 
 def reverse_invert(lst):
-    nums = [num for num in lst if isinstance(num, (int))]
-    strings = list(map(str, nums))
+    """ Use list comprehension with the isinstance() function which returns True
+    if the specified object is of the specified type, int in our case.
+    The result is a list of integers.
+    """
+    nums = [num for num in lst if isinstance(num, int)]
+    nums_strings = list(map(str, nums))  # Convert numbers in the list to strings.
 
-    a = []
-    b = []
-    for e in strings:
+    positive_reversed_nums = []
+    plus_minus_one = []
+    for e in nums_strings:
         if "-" in e:
-            a.append(e.replace("-", "")[::-1])
-            b.append(1)
+            positive_reversed_nums.append(e.replace("-", "")[::-1]) # remove "-" and reverse
+            plus_minus_one.append(1)
         else:
-            a.append(e[::-1])
-            b.append(-1)
+            positive_reversed_nums.append(e[::-1])
+            plus_minus_one.append(-1)
 
-    cleaned = [int(x) for x in a]
-    print(cleaned)
+    str_to_int = [int(x) for x in positive_reversed_nums]
 
     products = []
-    for num1, num2 in zip(b, cleaned):
+    for num1, num2 in zip(plus_minus_one, str_to_int):
         products.append(num1 * num2)
     return products
 
 
-print(reverse_invert([-9, -18, 99]))
+print(reverse_invert([-9, -18, 99, 'a', 9.23]))
+
+
+def test_reverse_invert():
+    assert reverse_invert([-9, -18, 99]) == [9, 81, -99]
+
+
+from math import copysign as sign
+
+
+def reverse_invert(lst):
+    return [-int(sign(int(str(abs(x))[::-1]), x)) for x in lst if isinstance(x, int)]
 
 
 # Find the middle element - 7Kyu
