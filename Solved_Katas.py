@@ -1,5 +1,17 @@
 import pytest
 
+# What comes after?  - 7Kyu
+def comes_after(words, letter):
+    result = ""
+    for i, c in enumerate(words):
+        if c.lower() == letter.lower() and i < len(words) - 1 and words[i + 1].isalpha():
+            result += words[i + 1]
+
+    return result
+
+print(comes_after("Pirates say arrrrrrrrr.", 'r'))
+
+
 
 # Reverse and Invert - 7Kyu
 
@@ -32,8 +44,8 @@ def reverse_invert(lst):
 print(reverse_invert([-9, -18, 99, 'a', 9.23]))
 
 
-def test_reverse_invert():
-    assert reverse_invert([-9, -18, 99]) == [9, 81, -99]
+# def test_reverse_invert():
+#     assert reverse_invert([-9, -18, 99]) == [9, 81, -99]
 
 
 from math import copysign as sign
