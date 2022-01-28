@@ -1,4 +1,13 @@
-import pytest
+# Sum of Minimums! - 7Kyu
+
+def sum_of_minimums(numbers):
+    sum_nums = 0
+    for n in numbers:
+        sum_nums += min(n)
+    return sum_nums
+
+
+print(sum_of_minimums([[7, 9, 8, 6, 2], [6, 3, 5, 4, 3], [5, 8, 7, 4, 5]]))
 
 
 # What comes after?  - 7Kyu
@@ -18,6 +27,7 @@ def comes_after(st, l):
             res += st[i + 1]
 
     return ''.join([i for i in res if i.isalpha()])
+
 
 print(comes_after("Pirates say arrrrrrrrr.", 'r'))
 
