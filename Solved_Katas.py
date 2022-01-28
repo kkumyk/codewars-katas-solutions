@@ -1,3 +1,18 @@
+# Move 10 - 7Kyu
+
+def move_ten(st):
+    res = ""
+    alphabet = "".join([chr(i) for i in range(ord('a'), ord('z') + 1)]) * 2
+    for l in st:
+        for i, a in enumerate(alphabet):
+            if l == a:
+                res += alphabet[alphabet.index(a) + 10]
+    return res[0::2]
+
+
+print(move_ten("testcase"))
+
+
 # Sum of Minimums! - 7Kyu
 
 def sum_of_minimums(numbers):
