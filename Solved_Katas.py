@@ -1,5 +1,6 @@
 import pytest
 
+
 # What comes after?  - 7Kyu
 def comes_after(words, letter):
     result = ""
@@ -9,8 +10,16 @@ def comes_after(words, letter):
 
     return result
 
-print(comes_after("Pirates say arrrrrrrrr.", 'r'))
 
+def comes_after(st, l):
+    res = ''
+    for i, e in enumerate(st):
+        if e.lower() == l.lower() and i < len(st) - 1:
+            res += st[i + 1]
+
+    return ''.join([i for i in res if i.isalpha()])
+
+print(comes_after("Pirates say arrrrrrrrr.", 'r'))
 
 
 # Reverse and Invert - 7Kyu
@@ -27,7 +36,7 @@ def reverse_invert(lst):
     plus_minus_one = []
     for e in nums_strings:
         if "-" in e:
-            positive_reversed_nums.append(e.replace("-", "")[::-1]) # remove "-" and reverse
+            positive_reversed_nums.append(e.replace("-", "")[::-1])  # remove "-" and reverse
             plus_minus_one.append(1)
         else:
             positive_reversed_nums.append(e[::-1])
@@ -42,7 +51,6 @@ def reverse_invert(lst):
 
 
 print(reverse_invert([-9, -18, 99, 'a', 9.23]))
-
 
 # def test_reverse_invert():
 #     assert reverse_invert([-9, -18, 99]) == [9, 81, -99]
