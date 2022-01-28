@@ -4,7 +4,7 @@ def move_ten(st):
     res = ""
     alphabet = "".join([chr(i) for i in range(ord('a'), ord('z') + 1)]) * 2
     for l in st:
-        for i, a in enumerate(alphabet):
+        for a in alphabet:
             if l == a:
                 res += alphabet[alphabet.index(a) + 10]
     return res[0::2]
