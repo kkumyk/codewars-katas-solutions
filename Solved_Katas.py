@@ -1,3 +1,17 @@
+# Remove consecutive duplicate words - 7Kyu
+
+
+def remove_consecutive_duplicates(s):
+    words = s.split(' ')
+    result = words[0] + ' '
+    for pos in range(1, len(words)):
+        if words[pos] != words[pos-1]:
+            result += words[pos] + ' '
+    return result.strip()
+
+print(remove_consecutive_duplicates('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'))
+
+
 # Move 10 - 7Kyu
 
 def move_ten(st):
