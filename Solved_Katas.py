@@ -1,3 +1,14 @@
+# Your order, please -6Kyu
+
+def order(sentence):
+    res = ''
+    for i in range(1, len(sentence)):
+        for s in sentence.split():
+            if str(i) in s:
+                res += s + ' '
+    return res.strip()
+print(order("is2 Thi1s T4est 3a"))
+
 # Remove consecutive duplicate words - 7Kyu
 
 # List Filtering - 7Kyu
