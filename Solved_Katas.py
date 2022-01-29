@@ -1,13 +1,21 @@
 # Remove consecutive duplicate words - 7Kyu
 
+# List Filtering - 7Kyu
+def filter_list(l):
+    return [e for e in l if type(e) == int]
+
+
+print(filter_list([1, 2, 'a', 'b']))
+
 
 def remove_consecutive_duplicates(s):
     words = s.split(' ')
     result = words[0] + ' '
     for pos in range(1, len(words)):
-        if words[pos] != words[pos-1]:
+        if words[pos] != words[pos - 1]:
             result += words[pos] + ' '
     return result.strip()
+
 
 print(remove_consecutive_duplicates('alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta'))
 
