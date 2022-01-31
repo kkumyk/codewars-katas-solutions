@@ -1,3 +1,18 @@
+# Sort the odd - 6Kyu
+
+def sort_array(source_array):
+    odds_list = sorted([item for item in source_array if item % 2 != 0])
+    odd_int = 0
+    for i in range(len(source_array)):
+        if source_array[i] % 2 != 0:
+            source_array[i] = odds_list[odd_int]
+            odd_int += 1
+    return source_array
+
+
+print(sort_array([5, 3, 2, 8, 1, 4]))
+
+
 # Your order, please -6Kyu
 
 def order(sentence):
@@ -7,7 +22,10 @@ def order(sentence):
             if str(i) in s:
                 res += s + ' '
     return res.strip()
+
+
 print(order("is2 Thi1s T4est 3a"))
+
 
 # Remove consecutive duplicate words - 7Kyu
 
