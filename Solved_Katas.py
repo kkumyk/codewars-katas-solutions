@@ -1,3 +1,24 @@
+# Double Char - 8Kyu
+
+def double_char(s):
+    res = ''
+    for letter in s:
+        res += letter * 2
+    return res
+
+
+print(double_char("String"))
+
+
+# String repeat - 8Kyu
+
+def repeat_str(repeat, string):
+    return string * repeat
+
+
+print(repeat_str(4, 'a'))
+
+
 # Difference of 2 - 6Kyu
 
 def twos_difference(arr):
