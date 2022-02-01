@@ -1,3 +1,16 @@
+# Sum of positive - 8Kyu
+
+def positive_sum(arr):
+    sum_nums = 0
+    for n in arr:
+        if n > 0:
+            sum_nums += n
+    return sum_nums
+
+
+print(positive_sum([1, 2, 3, 4, 5]))
+
+
 # Sort the odd - 6Kyu
 
 def sort_array(source_array):
