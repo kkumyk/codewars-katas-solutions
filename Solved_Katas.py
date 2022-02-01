@@ -1,3 +1,12 @@
+# Difference of 2 - 6Kyu
+
+def twos_difference(arr):
+    return [(i, i + 2) for i in sorted(arr) if i + 2 in arr]
+
+
+print(twos_difference([1, 2, 3, 4]))
+
+
 # Sum of positive - 8Kyu
 
 def positive_sum(arr):
