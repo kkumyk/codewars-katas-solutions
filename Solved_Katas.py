@@ -1,3 +1,25 @@
+def arithmetic_arranger(problem_list):
+    res = ''
+    for i, sub in enumerate(problem_list):
+        o = [sub.split()[1]]
+        a = [''.join(sub.split()[0])]
+        b = [''.join(sub.split()[2])]
+        print(a,b,o)
+        for e in a:
+            for i in o:
+                for j in b:
+                    res += '\n' + " "*(5-len(e)) + e + '\n' + i + j +'\n' + '_____'
+    return res
+
+        #res += " "*len_dif[0] + a + '\n' + b + '\n'
+    # return arranged_problems
+
+
+print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]))
+
+print('****************************************************************************')
+
+
 # Find the missing letter - 6Kyu
 
 def find_missing_letter(chars):
@@ -7,6 +29,7 @@ def find_missing_letter(chars):
     last = alphabet.index(chars[-1])
     res = alphabet[first:last + 1] + ''.join(chars)
     return ''.join([c for c in res if res.count(c) == 1])
+
 
 print(find_missing_letter(['a', 'b', 'c', 'd', 'f']))
 print(find_missing_letter(['O', 'Q', 'R', 'S']))
