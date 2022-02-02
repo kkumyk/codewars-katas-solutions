@@ -1,3 +1,8 @@
+# Remove First and Last Character - 8Kyu
+def remove_char(s):
+    return s[1:len(s)-1]
+
+
 # String to number - 8Kyu
 def string_to_number(s):
     return int(s)
