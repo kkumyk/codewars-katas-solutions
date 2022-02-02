@@ -1,3 +1,17 @@
+# Find the missing letter - 6Kyu
+
+def find_missing_letter(chars):
+    alphabet_lower = "".join([chr(i) for i in range(ord('a'), ord('z') + 1)])
+    alphabet = alphabet_lower + alphabet_lower.upper()
+    first = alphabet.index(chars[0])
+    last = alphabet.index(chars[-1])
+    res = alphabet[first:last + 1] + ''.join(chars)
+    return ''.join([c for c in res if res.count(c) == 1])
+
+print(find_missing_letter(['a', 'b', 'c', 'd', 'f']))
+print(find_missing_letter(['O', 'Q', 'R', 'S']))
+
+
 # Find the unique number - 6Kyu
 
 def find_uniq(arr):
@@ -8,7 +22,8 @@ def find_uniq(arr):
     else:
         return first
 
-print(find_uniq([ 1, 1, 1, 2, 1, 1 ]))
+
+print(find_uniq([1, 1, 1, 2, 1, 1]))
 
 
 # Count characters in your string - 6Kyu
