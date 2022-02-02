@@ -1,3 +1,8 @@
+# String to number - 8Kyu
+def string_to_number(s):
+    return int(s)
+
+
 # Double Char - 8Kyu
 
 def double_char(s):
