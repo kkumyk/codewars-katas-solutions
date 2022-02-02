@@ -1,6 +1,20 @@
+# Count characters in your string - 6Kyu
+
+def count(string):
+    unique_chars = sorted(list(set(string)))
+    counts = {}
+
+    for k in unique_chars:
+        counts[k] = string.count(k)
+    return counts
+
+
+print(count('aba'))
+
+
 # Remove First and Last Character - 8Kyu
 def remove_char(s):
-    return s[1:len(s)-1]
+    return s[1:len(s) - 1]
 
 
 # String to number - 8Kyu
@@ -535,7 +549,7 @@ print(remove_smallest([1, 2, 3, 1, 1]))
 # sum up all numbers that appear in two or more lists in the input list
 
 
-"""The standard library provides the Python defaultdict type - a dictionary-like clas
+"""The standard library provides the Python defaultdict type - a dictionary-like class
 behaves almost exactly like a regular Python dictionary, but if you try to access or modify a missing key,
 then defaultdict will automatically create the key and generate a default value for it.
 This makes defaultdict a valuable option for handling missing keys in dictionaries."""
