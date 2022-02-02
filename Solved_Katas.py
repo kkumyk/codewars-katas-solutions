@@ -1,3 +1,16 @@
+# Find the unique number - 6Kyu
+
+def find_uniq(arr):
+    first = sorted(arr)[0]
+    last = sorted(arr)[-1]
+    if first == sorted(arr)[1]:
+        return last
+    else:
+        return first
+
+print(find_uniq([ 1, 1, 1, 2, 1, 1 ]))
+
+
 # Count characters in your string - 6Kyu
 
 def count(string):
