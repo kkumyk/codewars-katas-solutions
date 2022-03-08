@@ -1,13 +1,52 @@
-from turtle import *
-for i in range(50):
-    forward(i)
-    left(91)
+s = "singing in the rain and playing in the rain are two entirely different situations but both can be fun"
+vowels = ['a', 'e', 'i', 'o', 'u']
+num_vowels = 0
+
+for char in "".join(s.split()):
+    if char in vowels:
+        num_vowels += 1
+print(num_vowels)
+
+print("=========================================")
+
+sentence = "python is a high level general purpose programming language that can be applied to many different classes " \
+           "of problems. "
+num_a_or_e = 0
+for word in sentence.split():
+    if "a" in "".join(set(word)) or "e" in "".join(set(word)):
+        num_a_or_e += 1
+print(num_a_or_e)
+
+items = ["whirring", "wow!", "calendar", "wry", "glass", "", "llama", "tumultuous", "owing"]
+acc_num = 0
+for word in items:
+    if "w" in word:
+        acc_num += 1
+print(acc_num)
+
+sentence = "students flock to the arb for a variety of outdoor activities such as jogging and picnicking"
+same_letter_count = 0
+for word in sentence.split():
+    if word[0] == word[-1]:
+        same_letter_count += 1
+print("same_letter_count", same_letter_count)
+
+rainfall_mi = "1.65, 1.46, 2.05, 3.03, 3.35, 3.46, 2.83, 3.23, 3.5, 2.52, 2.8, 1.85"
+num_rainy_months = 0
+for n in rainfall_mi.split(","):
+    if float(n) > 3.0:
+        num_rainy_months += 1
+print("num_rainy_months", num_rainy_months)
+
+# from turtle import *
+# for i in range(50):
+#     forward(i)
+#     left(91)
 
 lett = ""
 for n in range(7):
     lett += "b"
 print(lett)
-
 
 original_str = "The quick brown rhino jumped over the extremely lazy fox"
 num_words_list = []
@@ -22,7 +61,6 @@ for n in range(68):
     nums.append(n)
 print(nums)
 
-
 week_temps_f = "75.1,77.7,83.2,82.5,81.0,79.5,85.7"
 num_of_items = len(week_temps_f.split(","))
 avg_temp = 0
@@ -30,7 +68,7 @@ sum_temp = 0
 
 for t in week_temps_f.split(","):
     sum_temp += float(t)
-    avg_temp = sum_temp/num_of_items
+    avg_temp = sum_temp / num_of_items
 print(avg_temp)
 
 my_str = "MICHIGAN"
@@ -43,12 +81,10 @@ for e in several_things:
 for i in several_things:
     print(type(i))
 
-
 str_list = ["hello", "", "goodbye", "wonderful", "I love Python"]
 # Write your code here.
 for e in str_list:
     print(len(e))
-
 
 original_str = "The quick brown rhino jumped over the extremely lazy fox."
 num_chars = 0
@@ -61,12 +97,6 @@ sum_val = 0
 for n in addition_str.split("+"):
     sum_val += int(n)
 print(sum_val)
-
-
-
-
-
-
 
 
 # Find the missing letter - 6Kyu
