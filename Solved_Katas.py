@@ -1,3 +1,27 @@
+from turtle import *
+for i in range(50):
+    forward(i)
+    left(91)
+
+lett = ""
+for n in range(7):
+    lett += "b"
+print(lett)
+
+
+original_str = "The quick brown rhino jumped over the extremely lazy fox"
+num_words_list = []
+
+for l in original_str.split(" "):
+    num_words_list.append(len(l))
+
+print(num_words_list)
+
+nums = []
+for n in range(68):
+    nums.append(n)
+print(nums)
+
 
 week_temps_f = "75.1,77.7,83.2,82.5,81.0,79.5,85.7"
 num_of_items = len(week_temps_f.split(","))
