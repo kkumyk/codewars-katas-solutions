@@ -1,23 +1,48 @@
-def arithmetic_arranger(problem_list):
-    res = ''
-    for i, sub in enumerate(problem_list):
-        o = [sub.split()[1]]
-        a = [''.join(sub.split()[0])]
-        b = [''.join(sub.split()[2])]
-        print(a,b,o)
-        for e in a:
-            for i in o:
-                for j in b:
-                    res += '\n' + " "*(5-len(e)) + e + '\n' + i + j +'\n' + '_____'
-    return res
 
-        #res += " "*len_dif[0] + a + '\n' + b + '\n'
-    # return arranged_problems
+week_temps_f = "75.1,77.7,83.2,82.5,81.0,79.5,85.7"
+num_of_items = len(week_temps_f.split(","))
+avg_temp = 0
+sum_temp = 0
+
+for t in week_temps_f.split(","):
+    sum_temp += float(t)
+    avg_temp = sum_temp/num_of_items
+print(avg_temp)
+
+my_str = "MICHIGAN"
+for l in my_str:
+    print(l)
+
+several_things = ["hello", 2, 4, 6.0, 7.5, 234352354, "the end", "", 99]
+for e in several_things:
+    print(e)
+for i in several_things:
+    print(type(i))
 
 
-print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]))
+str_list = ["hello", "", "goodbye", "wonderful", "I love Python"]
+# Write your code here.
+for e in str_list:
+    print(len(e))
 
-print('****************************************************************************')
+
+original_str = "The quick brown rhino jumped over the extremely lazy fox."
+num_chars = 0
+for char in list(original_str):
+    num_chars += 1
+print(num_chars)
+
+addition_str = "2+5+10+20"
+sum_val = 0
+for n in addition_str.split("+"):
+    sum_val += int(n)
+print(sum_val)
+
+
+
+
+
+
 
 
 # Find the missing letter - 6Kyu
