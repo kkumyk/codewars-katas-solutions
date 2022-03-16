@@ -1,3 +1,51 @@
+Remove First and Last Character
+
+
+
+inventory = ["shoes, 12, 29.99", "shirts, 20, 9.99", "sweatpants, 25, 15.00", "scarves, 13, 7.75"]
+txt = "The store has {1} {0}, each for {2} USD."
+for item in inventory:
+    name = item.split(", ")[0]
+    stock = item.split(", ")[1]
+    price = item.split(", ")[2]
+    print(txt.format(name, stock, price))
+
+print("=========================================")
+
+p_phrase = "was it a car or a cat I saw"
+
+
+r_phrase = p_phrase[::-1]
+if p_phrase == r_phrase:
+    print(True)
+
+
+stopwords = ['to', 'a', 'for', 'by', 'an', 'am', 'the', 'so', 'it', 'and', 'The']
+sent = "The water earth and air are vital"
+sub = ""
+for word in sent.split():
+    if word not in stopwords:
+        sub += word[0:2].upper() + ". "
+acro = sub[:-2]
+
+print(acro)
+
+stopwords = ['to', 'a', 'for', 'by', 'an', 'am', 'the', 'so', 'it', 'and', "The"]
+org = "The organization for health, safety, and education"
+acro = ""
+for word in org.split():
+    if word not in stopwords:
+        acro += word[0].upper()
+
+
+scores = "67 80 90 78 93 20 79 89 96 97 92 88 79 68 58 90 98 100 79 74 83 88 80 86 85 70 90 100"
+a_scores = 0
+for n in scores.split():
+    if int(n) >= 90:
+        a_scores += 1
+
+print("=========================================")
+
 s = "singing in the rain and playing in the rain are two entirely different situations but both can be fun"
 vowels = ['a', 'e', 'i', 'o', 'u']
 num_vowels = 0
@@ -7,7 +55,6 @@ for char in "".join(s.split()):
         num_vowels += 1
 print(num_vowels)
 
-print("=========================================")
 
 sentence = "python is a high level general purpose programming language that can be applied to many different classes " \
            "of problems. "
@@ -145,6 +192,9 @@ print(count('aba'))
 # Remove First and Last Character - 8Kyu
 def remove_char(s):
     return s[1:len(s) - 1]
+
+def remove_char(s):
+    return s[1:-1]
 
 
 # String to number - 8Kyu
