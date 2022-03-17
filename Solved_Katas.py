@@ -1,4 +1,7 @@
-Remove First and Last Character
+# Enumerable Magic #25 - Take the First N Elements - 8Kyu
+
+def take(arr, n):
+    return arr[0:n]
 
 
 
