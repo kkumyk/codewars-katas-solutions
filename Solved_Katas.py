@@ -206,13 +206,11 @@ def string_to_number(s):
 
 
 # Double Char - 8Kyu
-
 def double_char(s):
-    res = ''
-    for letter in s:
-        res += letter * 2
-    return res
-
+    new_string = ""
+    for char in s:
+        new_string += char*2
+    return new_string
 
 print(double_char("String"))
 
