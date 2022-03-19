@@ -1,3 +1,11 @@
+# Spoonerize Me
+def spoonerize(words):
+    separ_words = words.split()
+    update_first = separ_words[1][0:1] + separ_words[0][1:]
+    update_second = separ_words[0][0:1] + separ_words[1][1:]
+    return update_first + " " + update_second
+
+
 # Enumerable Magic #25 - Take the First N Elements - 8Kyu
 
 def take(arr, n):
