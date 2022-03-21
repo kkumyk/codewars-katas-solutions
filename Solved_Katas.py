@@ -1,3 +1,15 @@
+# Longest vowel chain - 7Kyu
+def solve(s):
+    t = ""
+    for l in s:
+        if l in 'aeiou':
+            t += str(1)
+        else:
+            t += "-"
+    return len(sorted(t.split("-"))[-1])
+
+
+
 # Spoonerize Me
 
 def spoonerize(words):
