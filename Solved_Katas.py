@@ -1,4 +1,11 @@
 # Spoonerize Me
+
+def spoonerize(words):
+    a, b = words.split()
+    return "{}{} {}{}".format(b[0], a[1:], a[0], b[1:])
+
+print(spoonerize("wedding bells"))
+
 def spoonerize(words):
     separ_words = words.split()
     update_first = separ_words[1][0:1] + separ_words[0][1:]
