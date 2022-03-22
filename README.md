@@ -3,6 +3,7 @@
 |------------------------------|---------------------------------------------|
 | Dollars and Cents            | [link](/8kyu/Dollars-and-Cents.py)          |
 | Well of Ideas - Easy Version | [link](/8kyu/Well-of-Ideas-Easy-Version.py) |
+| Stop gninnipS My sdroW       | [link](/8kyu/Stop-gninnipS-My-sdroW.py)     |
 
 
 ## 6Kyu Solutions
