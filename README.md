@@ -8,6 +8,7 @@
 | Lario and Muigi Pipe Problem              | [link](/8kyu/Lario-and-Muigi-Pipe-Problem.py)              |
 | Short Long Short                          | [link](/8kyu/Short-Long-Short.py)                          |
 | Is your period late?                      | [link](/8kyu/Is-your-period-late.py)                       |
+| Check the Bucket                          | [link](/8kyu/Check-the-Bucket.py)                          |
 
 
 ## 6Kyu Solutions
