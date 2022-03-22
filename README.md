@@ -6,6 +6,7 @@
 | Stop gninnipS My sdroW                    | [link](/8kyu/Stop-gninnipS-My-sdroW.py)                    |
 | Find Maximum and Minimum Values of a List | [link](/8kyu/Find-Maximum-and-Minimun-Values-of-a-List.py) |
 | Lario and Muigi Pipe Problem              | [link](/8kyu/Lario-and-Muigi-Pipe-Problem.py)              |
+| Short Long Short                          | [link](/8kyu/Short-Long-Short.py)                          |
 
 
 ## 6Kyu Solutions
