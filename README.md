@@ -9,6 +9,7 @@
 | Short Long Short                          | [link](/8kyu/Short-Long-Short.py)                          |
 | Is your period late?                      | [link](/8kyu/Is-your-period-late.py)                       |
 | Check the Bucket                          | [link](/8kyu/Check-the-Bucket.py)                          |
+| My First 30 8kyu Kata Solutions           | [link](/8kyu/My-First-30-8kyu-Kata-Solutionss.py)          |
 
 
 ## 6Kyu Solutions
