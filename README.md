@@ -5,6 +5,7 @@
 | Well of Ideas - Easy Version              | [link](/8kyu/Well-of-Ideas-Easy-Version.py)                |
 | Stop gninnipS My sdroW                    | [link](/8kyu/Stop-gninnipS-My-sdroW.py)                    |
 | Find Maximum and Minimum Values of a List | [link](/8kyu/Find-Maximum-and-Minimun-Values-of-a-List.py) |
+| Lario and Muigi Pipe Problem              | [link](/8kyu/Lario-and-Muigi-Pipe-Problem.py)              |
 
 
 ## 6Kyu Solutions
