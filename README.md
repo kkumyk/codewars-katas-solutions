@@ -10,6 +10,7 @@
 | Is your period late?                      | [link](/8kyu/Is-your-period-late.py)                       |
 | Check the Bucket                          | [link](/8kyu/Check-the-Bucket.py)                          |
 | My First 30 8kyu Kata Solutions           | [link](/8kyu/My-First-30-8kyu-Kata-Solutions.py)           |
+| 22 Kata Solutions                         | [link](/8kyu/8kyu-Kata-Solutions.py)                       |
 
 
 ## 7Kyu Solutions
