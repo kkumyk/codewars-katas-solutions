@@ -29,4 +29,4 @@
  | Kata                            | Link                                                |
 |---------------------------------|-----------------------------------------------------|
 | Extract the domain name from a URL | [link](/5kyu/Extract-the-domain-name-from-a-URL.py) |
-| Extract the domain name from a URL | [Extract the domain name from a URL](/5kyu/Extract-the-domain-name-from-a-URL.py) |
+| Extract the domain name from a URL | [Extract the domain name from a URL](/5kyu/Extract-the-domain-name-from-a-URL.py){:target="_blank"} |
