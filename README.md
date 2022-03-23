@@ -1,3 +1,22 @@
+## 5Kyu Solutions
+ | Kata                               | Link                                                |
+|------------------------------------|-----------------------------------------------------|
+| Extract the domain name from a URL | [link](/5kyu/Extract-the-domain-name-from-a-URL.py) |
+| ROT13                              | [link](/5kyu/ROT13.py)                              |
+
+## 6Kyu Solutions
+ | Kata                         | Link                                          |
+|------------------------------|-----------------------------------------------|
+| My First 6kyu Kata Solutions | [link](/6kyu/My-First-6kyu-Kata-Solutions.py) |
+| Valid String                 | [link](/6kyu/Valid_String.py)                 |
+| Six Kata Solutions           | [link](/6kyu/6kyu-Kata-Solutions.py)          |
+
+## 7Kyu Solutions
+ | Kata                            | Link                                          |
+|---------------------------------|-----------------------------------------------|
+| My First 28 7kyu Kata Solutions | [link](/7kyu/My-First-7kyu-Kata-Solutions.py) |
+| 40 7kyu Kata Solutions          | [link](/7kyu/7kyu-Kata-Solutions.py)          |
+
 ## 8Kyu Solutions
  | Kata                                      | Link                                                       |
 |-------------------------------------------|------------------------------------------------------------|
@@ -11,25 +30,3 @@
 | Check the Bucket                          | [link](/8kyu/Check-the-Bucket.py)                          |
 | My First 30 8kyu Kata Solutions           | [link](/8kyu/My-First-30-8kyu-Kata-Solutions.py)           |
 | 22 Kata Solutions                         | [link](/8kyu/8kyu-Kata-Solutions.py)                       |
-
-
-## 7Kyu Solutions
- | Kata                            | Link                                          |
-|---------------------------------|-----------------------------------------------|
-| My First 28 7kyu Kata Solutions | [link](/7kyu/My-First-7kyu-Kata-Solutions.py) |
-| 40 7kyu Kata Solutions          | [link](/7kyu/7kyu-Kata-Solutions.py)          |
-
-
-
-## 6Kyu Solutions
- | Kata                         | Link                                          |
-|------------------------------|-----------------------------------------------|
-| My First 6kyu Kata Solutions | [link](/6kyu/My-First-6kyu-Kata-Solutions.py) |
-| Valid String                 | [link](/6kyu/Valid_String.py)                 |
-| Six Kata Solutions           | [link](/6kyu/6kyu-Kata-Solutions.py)               |
-
-## 5Kyu Solutions
- | Kata                               | Link                                                |
-|------------------------------------|-----------------------------------------------------|
-| Extract the domain name from a URL | [link](/5kyu/Extract-the-domain-name-from-a-URL.py) |
-| ROT13                              | [link](/5kyu/ROT13.py)                              |
