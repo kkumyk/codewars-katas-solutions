@@ -88,6 +88,5 @@ def count_bits(n):
     binary = f'{n:08b}'
     return binary.count('1')
 
-# Replace With Alphabet Position
 
 
