@@ -24,3 +24,9 @@
 |------------------------------|-----------------------------------------------|
 | My First 6kyu Kata Solutions | [link](/6kyu/My-First-6kyu-Kata-Solutions.py) |
 | Valid String                 | [link](/6kyu/Valid_String.py)                 |
+
+## 5Kyu Solutions
+ | Kata                            | Link                                                |
+|---------------------------------|-----------------------------------------------------|
+| Extract the domain name from a URL | [link](/5kyu/Extract-the-domain-name-from-a-URL.py) |
+| Extract the domain name from a URL | [Extract the domain name from a URL](/5kyu/Extract-the-domain-name-from-a-URL.py) |
