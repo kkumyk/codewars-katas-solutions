@@ -20,6 +20,7 @@
 
 
 ## 6Kyu Solutions
- | Kata         | Link                          |
-|--------------|-------------------------------|
-| Valid String | [link](/6kyu/Valid_String.py) |
+ | Kata                         | Link                                          |
+|------------------------------|-----------------------------------------------|
+| My First 6kyu Kata Solutions | [link](/6kyu/My-First-6kyu-Kata-Solutions.py) |
+| Valid String                 | [link](/6kyu/Valid_String.py)                 |
