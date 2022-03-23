@@ -26,7 +26,6 @@
 | Valid String                 | [link](/6kyu/Valid_String.py)                 |
 
 ## 5Kyu Solutions
- | Kata                            | Link                                                |
-|---------------------------------|-----------------------------------------------------|
+ | Kata                               | Link                                                |
+|------------------------------------|-----------------------------------------------------|
 | Extract the domain name from a URL | [link](/5kyu/Extract-the-domain-name-from-a-URL.py) |
-| Extract the domain name from a URL | [Extract the domain name from a URL](/5kyu/Extract-the-domain-name-from-a-URL.py){:target="_blank"} |
