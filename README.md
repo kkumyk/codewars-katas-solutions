@@ -16,6 +16,7 @@
  | Kata                            | Link                                          |
 |---------------------------------|-----------------------------------------------|
 | My First 28 7kyu Kata Solutions | [link](/7kyu/My-First-7kyu-Kata-Solutions.py) |
+| 40 7kyu Kata Solutions          | [link](/7kyu/7kyu-Kata-Solutions.py)          |
 
 
 
@@ -24,7 +25,7 @@
 |------------------------------|-----------------------------------------------|
 | My First 6kyu Kata Solutions | [link](/6kyu/My-First-6kyu-Kata-Solutions.py) |
 | Valid String                 | [link](/6kyu/Valid_String.py)                 |
-| Six Kata Solutions           | [link](/6kyu/Kata-Solutions.py)               |
+| Six Kata Solutions           | [link](/6kyu/6kyu-Kata-Solutions.py)               |
 
 ## 5Kyu Solutions
  | Kata                               | Link                                                |
