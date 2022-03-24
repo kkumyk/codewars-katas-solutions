@@ -1,11 +1,11 @@
 ## 5Kyu Solutions
- | Kata                               | Link                                                |
+ | Kata                               | Solution                                            |
 |------------------------------------|-----------------------------------------------------|
 | Extract the domain name from a URL | [link](/5kyu/Extract-the-domain-name-from-a-URL.py) |
 | ROT13                              | [link](/5kyu/ROT13.py)                              |
 
 ## 6Kyu Solutions
- | Kata                         | Link                                          |
+ | Kata                         | Solution                                      |
 |------------------------------|-----------------------------------------------|
 | My First 6kyu Kata Solutions | [link](/6kyu/My-First-6kyu-Kata-Solutions.py) |
 | Valid String                 | [link](/6kyu/Valid_String.py)                 |
@@ -19,7 +19,7 @@
 | List Filtering                  | [list_filtering](/7kyu/List_Filtering/list_filtering.py) | [test_list_filtering](/7kyu/List_Filtering/test_list_filtering.py) |
 
 ## 8Kyu Solutions
- | Kata                                      | Link                                                       |
+ | Kata                                      | Solution                                                   |
 |-------------------------------------------|------------------------------------------------------------|
 | Dollars and Cents                         | [link](/8kyu/Dollars-and-Cents.py)                         |
 | Well of Ideas - Easy Version              | [link](/8kyu/Well-of-Ideas-Easy-Version.py)                |
