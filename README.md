@@ -12,10 +12,11 @@
 | Six Kata Solutions           | [link](/6kyu/6kyu-Kata-Solutions.py)          |
 
 ## 7Kyu Solutions
- | Kata                            | Link                                          |
-|---------------------------------|-----------------------------------------------|
-| My First 28 7kyu Kata Solutions | [link](/7kyu/My-First-7kyu-Kata-Solutions.py) |
-| 40 7kyu Kata Solutions          | [link](/7kyu/7kyu-Kata-Solutions.py)          |
+| Kata                            | Link                                          |Test Link|
+|---------------------------------|-----------------------------------------------||
+| My First 28 7kyu Kata Solutions | [link](/7kyu/My-First-7kyu-Kata-Solutions.py) ||
+| 39 7kyu Kata Solutions          | [link](/7kyu/7kyu-Kata-Solutions.py)          ||
+| List Filtering                  | [link](/7kyu/List_Filtering/list_filtering.py)|[link](/7kyu/List_Filtering/test_list_filtering.py)|
 
 ## 8Kyu Solutions
  | Kata                                      | Link                                                       |

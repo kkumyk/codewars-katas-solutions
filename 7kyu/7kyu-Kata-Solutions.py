@@ -13,14 +13,6 @@ def spoonerize(words):
     return update_first + " " + update_second
 
 # Remove consecutive duplicate words - 7Kyu
-
-# List Filtering - 7Kyu
-def filter_list(l):
-    return [e for e in l if type(e) == int]
-
-print(filter_list([1, 2, 'a', 'b']))
-
-
 def remove_consecutive_duplicates(s):
     words = s.split(' ')
     result = words[0] + ' '
