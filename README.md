@@ -23,7 +23,7 @@
 | Solved Katas                                                                                    |
 |-------------------------------------------------------------------------------------------------|
 | [Dollars and Cents](/8kyu/Dollars-and-Cents.py)                                                 |
-| [Well of Ideas] - Easy Version](/8kyu/Well-of-Ideas-Easy-Version.py)                            |
+| [Well of Ideas - Easy Version](/8kyu/Well-of-Ideas-Easy-Version.py)                             |
 | [Stop gninnipS My sdroW](/8kyu/Stop-gninnipS-My-sdroW.py)                                       |
 | [Find Maximum and Minimum Values of a List](/8kyu/Find-Maximum-and-Minimun-Values-of-a-List.py) |
 | [Lario and Muigi Pipe Problem ](/8kyu/Lario-and-Muigi-Pipe-Problem.py)                          |
