@@ -12,12 +12,12 @@
 | Six Kata Solutions           | [link](/6kyu/6kyu-Kata-Solutions.py)          |
 
 ## 7Kyu Solutions
-| Kata                            | Solution                                                          | Test File                                                                   |
-|---------------------------------|-------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| My First 28 7kyu Kata Solutions | [link](/7kyu/My-First-7kyu-Kata-Solutions.py)                     |                                                                             |
-| 39 7kyu Kata Solutions          | [link](/7kyu/7kyu-Kata-Solutions.py)                              |                                                                             |
-| List Filtering                  | [list_filtering](/7kyu/List_Filtering/list_filtering.py)          | [test_list_filtering](/7kyu/List_Filtering/test_list_filtering.py)          |
-| "Very Even" Numbers             | [very_even_numbers](/7kyu/Very_Even_Numbers/very_even_numbers.py) | [test_very_even_numbers](/7kyu/Very_Even_Numbers/test_very_even_numbers.py) |
+| Kata                            | Solution                                                          |
+|---------------------------------|-------------------------------------------------------------------|
+| My First 28 7kyu Kata Solutions | [link](/7kyu/My-First-7kyu-Kata-Solutions.py)                     |                                                                             
+| 39 7kyu Kata Solutions          | [link](/7kyu/7kyu-Kata-Solutions.py)                              |                                                                             
+| List Filtering                  | [list_filtering](/7kyu/List_Filtering/list_filtering.py)          | 
+| "Very Even" Numbers             | [very_even_numbers](/7kyu/Very_Even_Numbers/very_even_numbers.py) | 
 
 ## 8Kyu Solutions
  | Kata                                      | Solution                                                   |
