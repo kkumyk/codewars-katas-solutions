@@ -12,12 +12,12 @@
 | Six Kata Solutions           | [link](/6kyu/6kyu-Kata-Solutions.py)          |
 
 ## 7Kyu Solutions
-| Kata                            | Solution                                                          |
-|---------------------------------|-------------------------------------------------------------------|
-| My First 28 7kyu Kata Solutions | [link](/7kyu/My-First-7kyu-Kata-Solutions.py)                     |                                                                             
-| 39 7kyu Kata Solutions          | [link](/7kyu/7kyu-Kata-Solutions.py)                              |                                                                             
-| List Filtering                  | [list_filtering](/7kyu/List_Filtering/list_filtering.py)          | 
-| "Very Even" Numbers             | [very_even_numbers](/7kyu/Very_Even_Numbers/very_even_numbers.py) | 
+ | Kata Solution                                                            |
+|--------------------------------------------------------------------------|
+ | [My First 28 7kyu Kata Solutions](/7kyu/My-First-7kyu-Kata-Solutions.py) |                                                                             
+ | [39 7kyu Kata Solutions](/7kyu/7kyu-Kata-Solutions.py)                   |                                                                             
+ | [List Filtering ](/7kyu/List_Filtering/list_filtering.py)                | 
+| ["Very Even" Numbers](/7kyu/Very_Even_Numbers/very_even_numbers.py)      | 
 
 ## 8Kyu Solutions
  | Kata                                      | Solution                                                   |
