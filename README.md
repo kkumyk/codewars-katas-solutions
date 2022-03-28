@@ -18,6 +18,7 @@
  | [39 7kyu Kata Solutions](/7kyu/7kyu-Kata-Solutions.py)                   |                                                                             
  | [List Filtering ](/7kyu/List_Filtering/list_filtering.py)                | 
 | ["Very Even" Numbers](/7kyu/Very_Even_Numbers/very_even_numbers.py)      | 
+| [Character Counter](/7kyu/Character-Counter.py)                          | 
 
 ## 8Kyu Solutions
 | Solved Katas                                                                                    |
