@@ -22,6 +22,7 @@
 ## 8Kyu Solutions
 | Solved Katas                                                                                    |
 |-------------------------------------------------------------------------------------------------|
+| [Invert values](/8kyu/Invert-Values.py)                                                         |
 | [Dollars and Cents](/8kyu/Dollars-and-Cents.py)                                                 |
 | [Well of Ideas - Easy Version](/8kyu/Well-of-Ideas-Easy-Version.py)                             |
 | [Stop gninnipS My sdroW](/8kyu/Stop-gninnipS-My-sdroW.py)                                       |
