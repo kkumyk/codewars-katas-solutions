@@ -1,7 +1,7 @@
 function calc(x){
 
   var total1 = "";
-  var total2 = '';
+  var total2 = "";
 
   var letters = x.split('');
   letters.forEach(function(letter){
@@ -17,7 +17,6 @@ function calc(x){
       total2 += Number(stringNumber);
     }
   })
-  console.log(typeof total1, total2)
 
   var sum1 = total1.split("").reduce( (a, b) => Number(a) + Number(b), 0);
   var sum2 = total2.split("").reduce( (a, b) => Number(a) + Number(b), 0);
