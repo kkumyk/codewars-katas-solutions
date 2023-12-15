@@ -12,7 +12,6 @@ function well(x) {
 
     if (x.slice().filter(x => (x === "good")).length > 2) {
         return 'I smell a series!'
-
     } else if (x.slice().filter(x => (x === "good")).length >= 1) {
         return "Publish!"
     } else {
