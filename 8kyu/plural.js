@@ -12,3 +12,7 @@ function plural(n) {
         return true
     } return false
 }
+
+function plural(n) {
+    return n !== 1;
+  }
