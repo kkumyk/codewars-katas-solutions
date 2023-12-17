@@ -11,7 +11,6 @@
 // def unusual_five():
 //     return len("five!")
 
-
 // # Drink about
 // def people_with_age_drink(age):
 //     if age < 14:
@@ -24,16 +23,12 @@
 //         return "drink whisky"
 
 
-
 // # Can we divide it?
-
 // def is_divide_by(number, a, b):
 //     if number % a == 0 and number % b == 0:
 //         return True
 //     else:
 //         return False
-
-
 
 // # What is between?
 // def between(a, b):
@@ -46,7 +41,6 @@
 // # Count Odd Numbers below n
 // def odd_count(n):
 //     return int(n / 2)
-
 // print(odd_count(23463634562))
 
 // # Multiplication table for number
@@ -70,14 +64,12 @@
 //           nums_to_mult[8] + ' = ' + str(answers[8]) + '\n' + nums_to_mult[9] + ' = ' + str(answers[9])
 //     return res
 
-
 // # Return Two Highest Values in List
 // def two_highest(arg1):
 //     sorted_list = sorted(arg1, reverse=True)
 //     unique_list_values = list(dict.fromkeys(sorted_list))
 
 //     return unique_list_values[0:2]
-
 
 // # Define a card suit
 // def define_suit(card):
@@ -92,9 +84,7 @@
 //         res += 'spades'
 //     return res
 
-
 // # Twice as old
-
 // def twice_as_old(dad_years_old, son_years_old):
 //     double_age = son_years_old * 2
 //     years = dad_years_old - double_age
@@ -104,11 +94,9 @@
 //     else:
 //         return double_age - dad_years_old
 
-
 // # a better solution would be to use abs() function which returns the absolute value of a number
 // def twice_as_old_update(dad_years_old, son_years_old):
 //     return abs(dad_years_old - 2 * son_years_old)
-
 
 // # Parse nice int from char problem
 // def get_age(age):
@@ -116,7 +104,6 @@
 //     for char in age:
 //         chars.append(char)
 //         return int(age[0])
-
 
 // # Calculate BMI
 // def bmi(weight, height):
@@ -130,7 +117,6 @@
 //     else:
 //         return "Obese"
 
-
 // # Fake Binary
 // def fake_bin(x):
 //     res = ""
@@ -141,19 +127,15 @@
 //             res += str(1)
 //     return res
 
-
 // # Beginner Series #1 School Paperwork
-
 // def paperwork(n, m):
 //     if n < 0 or m < 0:
 //         return 0
 //     else:
 //         return n * m
 
-
 // def paperwork_update(n, m):
 //     return n * m if n > 0 and m > 0 else 0
-
 
 // # A Needle in the Haystack
 // def find_needle(haystack):
@@ -162,9 +144,7 @@
 //             # he index() method returns the position at the first occurrence
 //             # of the specified value.
 //             return 'found the needle at position ' + str(haystack.index('needle'))
-
 // print(find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk']))
-
 
 // # Convert number to reversed array of digits
 // def digitize(n):
@@ -180,7 +160,6 @@
 //     # Reverse a List Using Slicing Operator [::-1]
 //     return integer_list[::-1]
 
-
 // def digitize_update(n):
 //     return list(map(int, str(n)[::-1]))
 
@@ -188,18 +167,15 @@
 
 
 // # Grasshopper - Summation
-
 // def summation(num):
 //     sum = 0
 //     # Create a sequence of numbers, starting from 1 to num+1 with the range() function
 //     # as an integer number specifying at which position to stop will be not included.
 //     # The range function increments by 1 (by default).
-
 //     for i in range(1, num + 1):
 //         sum += i
 
 //     return sum
-
 
 // # Remove duplicates from list
 // def distinct(seq):
@@ -348,9 +324,6 @@
 //     return s.lower() == s.lower()[::-1]
 // print(is_palindrome('AAAAAAAAAAAAAAAAAAAAAAA'))
 
-// # Is it even? - 8Kyu
-// def is_even(n):
-//     return (n % 2) == 0
 
 // # Area or Perimeter - 8Kyu
 // """You are given the length and width of a 4-sided polygon. The polygon can either be a rectangle or a square.
@@ -380,8 +353,6 @@
 // def repeat_it(string, n):
 //     return string * n if isinstance(string, str) else 'Not a string'
 // print(repeat_it("*^*", 5))
-
-
 
 // from collections import defaultdict
 // def repeat_sum(l):

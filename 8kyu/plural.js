@@ -8,7 +8,7 @@ All values will be positive integers or floats, or zero.
 function plural(n) {
     if (n >= 2) {
         return true
-    } else if (n >= 0 && n <= 0.99) {
+    } else if (n >= 0 && n < 1) {
         return true
     } return false
 }
