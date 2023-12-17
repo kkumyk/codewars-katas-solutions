@@ -70,28 +70,6 @@
 
 // print(odd_count(23463634562))
 
-
-// # ASCII Total
-// def uni_total(s):
-//     sum = 0
-//     for l in s:
-//         sum += ord(l)
-//     return sum
-
-
-// # Check same case
-
-// def same_case(a, b):
-//     if a.isalpha() != True or b.isalpha() != True:
-//         return -1
-//     elif a == a.lower() and b == b.lower():
-//         return 1
-//     elif a != a.lower() and b != b.lower():
-//         return 1
-//     else:
-//         return 0
-
-
 // # Multiplication table for number
 // def multi_table(number):
 //     nums_to_mult = []
@@ -310,24 +288,6 @@
 //     return new_string
 // print(double_char("String"))
 
-
-
-// # String repeat - 8Kyu
-// def repeat_str(repeat, string):
-//     return string * repeat
-// print(repeat_str(4, 'a'))
-
-
-
-
-// # Sum of positive - 8Kyu
-// def positive_sum(arr):
-//     sum_nums = 0
-//     for n in arr:
-//         if n > 0:
-//             sum_nums += n
-//     return sum_nums
-// print(positive_sum([1, 2, 3, 4, 5]))
 
 // def remove_consecutive_duplicates(s):
 //     words = s.split(' ')
