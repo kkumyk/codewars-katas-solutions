@@ -1,8 +1,7 @@
-// def unique_sum_2(lst):
-//     return sum(list(dict.fromkeys(lst))) if lst else None
-// print("The unique sum of the numbers in a given list is: ", unique_sum_2([2, 3, 3, 3, 6, 666, 666]))
 
 /*
+https://www.codewars.com/kata/56b1eb19247c01493a000065/solutions/javascript
+
 Given a list of integers values, your job is to return the sum of the values;
 however, if the same integer value appears multiple times in the list, you can only count it once in your sum.
 */
