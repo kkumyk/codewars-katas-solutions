@@ -310,10 +310,15 @@
 //     return new_string
 // print(double_char("String"))
 
+
+
 // # String repeat - 8Kyu
 // def repeat_str(repeat, string):
 //     return string * repeat
 // print(repeat_str(4, 'a'))
+
+
+
 
 // # Sum of positive - 8Kyu
 // def positive_sum(arr):
@@ -437,6 +442,8 @@
 //     return string * n if isinstance(string, str) else 'Not a string'
 // print(repeat_it("*^*", 5))
 
+
+
 // from collections import defaultdict
 // def repeat_sum(l):
 //     count = defaultdict(int)
@@ -445,12 +452,3 @@
 //             count[val] += 1
 
 //     return sum(k for k, v in count.items() if v > 1)
-
-// #  Capitalization and Mutability - 8Kyu
-// # fix the function below:
-// # def capitalize_word(word):
-// #     return "".join(char.upper() for char in word)
-
-// def capitalize_word(word):
-//     return word.capitalize()
-// print(capitalize_word('word'))
