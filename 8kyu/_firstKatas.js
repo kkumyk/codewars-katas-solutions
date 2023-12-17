@@ -7,33 +7,12 @@
 //     else:
 //         return "Your plant has had more than enough water for today!"
 
-
-// # Plural
-
-// def plural(n):
-//     if n >= 2:
-//         return True
-//     elif n == 0:
-//         return True
-//     else:
-//         return False
-
-
-// # Name Your Python!
-
-// class Python:
-//     def __init__(self, name):
-//         self.name = name
-
-
 // # Unusual Five
-
 // def unusual_five():
 //     return len("five!")
 
 
 // # Drink about
-
 // def people_with_age_drink(age):
 //     if age < 14:
 //         return "drink toddy"
