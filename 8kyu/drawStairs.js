@@ -1,4 +1,8 @@
 
+/*
+Given a number n, draw stairs using the letter "I", n tall and n wide, with the tallest in the top left.
+*/
+
 function drawStairs(n) {
   let result = [];
   
@@ -8,16 +12,3 @@ function drawStairs(n) {
   
   return result.join('\n');
 }
-
-
-// function drawStairs(n) {
-//     var count = 0;
-//     var result = '';
-  
-//     while(n > count) {
-//       result += ' '.repeat(count) + 'I';
-//       count++;
-//       if(n > count) result += '\n';
-//     }
-//     return result;
-// }
