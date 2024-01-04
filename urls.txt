@@ -8,10 +8,9 @@ https://www.codewars.com/kata/523b4ff7adca849afe000035/train/javascript
 https://www.codewars.com/kata/525c1a07bb6dda6944000031/train/javascript
 https://www.codewars.com/kata/5302d846be2a9189af0001e4/train/javascript
 https://www.codewars.com/kata/53dc54212259ed3d4f00071c/train/javascript
-
-
-https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
 https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
+
+
 https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
 https://www.codewars.com/kata/551b4501ac0447318f0009cd/train/javascript
 https://www.codewars.com/kata/55225023e1be1ec8bc000390/train/javascript
