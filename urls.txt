@@ -7,13 +7,9 @@ https://www.codewars.com/kata/51f9d93b4095e0a7200001b8/train/javascript
 https://www.codewars.com/kata/523b4ff7adca849afe000035/train/javascript
 https://www.codewars.com/kata/525c1a07bb6dda6944000031/train/javascript
 https://www.codewars.com/kata/5302d846be2a9189af0001e4/train/javascript
-
-https://www.codewars.com/kata/53369039d7ab3ac506000467/train/javascript
-https://www.codewars.com/kata/53cf459503f9bbb774000003/train/javascript
-https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
-https://www.codewars.com/kata/53da6d8d112bd1a0dc00008b/train/javascript
-https://www.codewars.com/kata/53dc23c68a0c93699800041d/train/javascript
 https://www.codewars.com/kata/53dc54212259ed3d4f00071c/train/javascript
+
+
 https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
 https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
 https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
