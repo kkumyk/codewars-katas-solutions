@@ -12,11 +12,10 @@ https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript
 https://www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
 https://www.codewars.com/kata/5547929140907378f9000039/train/javascript
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1/train/javascript
-
-
 https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript
-https://www.codewars.com/kata/559d2284b5bb6799e9000047/train/javascript
 https://www.codewars.com/kata/55a2d7ebe362935a210000b2/train/javascript
+
+
 https://www.codewars.com/kata/55a70521798b14d4750000a4/train/javascript
 https://www.codewars.com/kata/55ad04714f0b468e8200001c/train/javascript
 https://www.codewars.com/kata/55ccdf1512938ce3ac000056/train/javascript
