@@ -20,19 +20,10 @@ https://www.codewars.com/kata/56a946cd7bd95ccab2000055/train/javascript
 https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
 
 
-
-
-
-
-
-
-
-https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/javascript
 https://www.codewars.com/kata/5769b3802ae6f8e4890009d2/train/javascript
 https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/javascript
 https://www.codewars.com/kata/5772da22b89313a4d50012f7/train/javascript
 https://www.codewars.com/kata/577bd026df78c19bca0002c0/train/javascript
-https://www.codewars.com/kata/57a0556c7cb1f31ab3000ad7/train/javascript
 https://www.codewars.com/kata/57a0885cbb9944e24c00008e/train/javascript
 https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript
 https://www.codewars.com/kata/57a429e253ba3381850000fb/train/javascript
@@ -52,19 +43,11 @@ https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
 https://www.codewars.com/kata/57faece99610ced690000165/train/javascript
 https://www.codewars.com/kata/57faf7275c991027af000679/train/javascript
 https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed/train/javascript
-https://www.codewars.com/kata/582cb0224e56e068d800003c/train/javascript
-https://www.codewars.com/kata/583710ccaa6717322c000105/train/javascript
-https://www.codewars.com/kata/58cb43f4256836ed95000f97/train/javascript
 https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058/train/javascript
 https://www.codewars.com/kata/59342039eb450e39970000a6/train/javascript
-https://www.codewars.com/kata/59441520102eaa25260000bf/train/javascript
 https://www.codewars.com/kata/595970246c9b8fa0a8000086/train/javascript
-https://www.codewars.com/kata/5966e33c4e686b508700002d/train/javascript
 https://www.codewars.com/kata/59dd3ccdded72fc78b000b25/train/javascript
 https://www.codewars.com/kata/59fca81a5712f9fa4700159a/train/javascript
 https://www.codewars.com/kata/5a00e05cc374cb34d100000d/train/javascript
 https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce/train/javascript
-https://www.codewars.com/kata/5a360620f28b82a711000047/train/javascript
 https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097/train/javascript
-https://www.codewars.com/kata/5ab6538b379d20ad880000ab/train/javascript
-https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript>
