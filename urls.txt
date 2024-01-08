@@ -28,8 +28,6 @@ https://www.codewars.com/kata/57e1e61ba396b3727c000251/train/javascript
 https://www.codewars.com/kata/57eaeb9578748ff92a000009/train/javascript
 
 
-https://www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
-https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
 https://www.codewars.com/kata/57faece99610ced690000165/train/javascript
 https://www.codewars.com/kata/57faf7275c991027af000679/train/javascript
 https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed/train/javascript
