@@ -1,3 +1,24 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 8 Kyu
 https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript
 https://www.codewars.com/kata/50ee6b0bdeab583673000025/train/javascript
 https://www.codewars.com/kata/515e271a311df0350d00000f/train/javascript
@@ -30,11 +51,6 @@ https://www.codewars.com/kata/57faece99610ced690000165/train/javascript
 https://www.codewars.com/kata/57faf7275c991027af000679/train/javascript
 https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed/train/javascript
 https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058/train/javascript
-
-
-https://www.codewars.com/kata/59342039eb450e39970000a6/train/javascript
-https://www.codewars.com/kata/595970246c9b8fa0a8000086/train/javascript
-https://www.codewars.com/kata/59dd3ccdded72fc78b000b25/train/javascript
 https://www.codewars.com/kata/59fca81a5712f9fa4700159a/train/javascript
 https://www.codewars.com/kata/5a00e05cc374cb34d100000d/train/javascript
 https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce/train/javascript
