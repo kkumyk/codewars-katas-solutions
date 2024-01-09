@@ -53,5 +53,3 @@ https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed/train/javascript
 https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058/train/javascript
 https://www.codewars.com/kata/59fca81a5712f9fa4700159a/train/javascript
 https://www.codewars.com/kata/5a00e05cc374cb34d100000d/train/javascript
-https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce/train/javascript
-https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097/train/javascript
