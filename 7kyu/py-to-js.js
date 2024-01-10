@@ -1,37 +1,4 @@
 // """
-// Incrementer
-// https://www.codewars.com/kata/590e03aef55cab099a0002e8/
-// """
-
-
-// # return an enumerated object beginning at 1
-// def incrementer(nums):
-//     return [(i + v) % 10 for i, v in enumerate(nums, 1)]
-
-
-// print(incrementer([1, 2, 3]))
-
-
-
-
-
-
-// """
-// Digitize
-// https://www.codewars.com/kata/5417423f9e2e6c2f040002ae/
-// """
-
-
-// def digitize(n):
-//     lst = []
-//     for i in str(n):
-//         lst.append(int(i))
-//     return lst
-
-
-// print(digitize(123))
-
-// """
 // Alternate case
 // https://www.codewars.com/kata/57a62154cf1fa5b25200031e/
 // """
