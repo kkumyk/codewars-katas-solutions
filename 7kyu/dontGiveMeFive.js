@@ -2,10 +2,23 @@
 In this kata you get the start number and the end number of a region and 
 should return the count of all numbers except numbers with a 5 in it.
 The start and the end number are both inclusive!
-
-https://www.codewars.com/kata/5813d19765d81c592200001a/solutions/javascript
 */
 
+// Solution 1
+function dontGiveMeFive(start, end) {
+    let result = [];
+
+    for (let i = start; i <= end; i++) {
+        if ((!String(i).split("").includes("5"))) {
+            result.push(i)
+        }
+    }
+    return result.length;
+}
+
+console.log(dontGiveMeFive(4, 17)) // should return 12
+
+// Solution 2
 function dontGiveMeFive(start, end) {
 
     // "_" indicates an unused parameter; it's a common practice to assign unused parameters to the "_"
@@ -23,8 +36,6 @@ function dontGiveMeFive(start, end) {
             ar++
         } else { result.push(ar) }
     }
-    return result.length;
+    return result.length
 
 }
-
-console.log(dontGiveMeFive(1, 9)) // should return 8
