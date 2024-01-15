@@ -5,13 +5,14 @@ Remove all types other than integer.
 */
 
 function reverseInvert(array) {
-    let result = [];
-    let filteredArray = array.filter((e) => typeof e === "number");
-    let positiveNums = filteredArray
-                            .filter((e) => typeof e === "number")
-                            .map(e => (e * -1).toString().replace("-", ""))
-                            .map(e => parseInt(String(e).split("").reverse().join("")));
-
-    return positiveNums
+    result = [];
+    for (el of array)
+        if (Number.isInteger(el)) { // determines whether the passed value is an integer
+            if (el < 0) {
+                result.push(Number(Math.abs(el).toString().split('').reverse().join('')));
+            }
+            else { result.push(-Number(el.toString().split('').reverse().join(''))); }
+        }
+    return result;
 }
 console.log(reverseInvert([-9, "a", -18, 99, -10])) // [9,81,-99,1]
