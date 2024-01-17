@@ -14,4 +14,4 @@ function closest(arr) {
         } return sorted[0];
     }
 }
-console.log(closest([5, 1, -1, 2, -10])) // null
+console.log(closest([5, 1, -1, 2, -10])) //null
