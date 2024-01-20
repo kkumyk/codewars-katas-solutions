@@ -14,17 +14,3 @@ var splitInParts = function (s, partLength) {
 }
 
 console.log(splitInParts("supercalifragilisticexpialidocious", 3)) // "sup erc ali fra gil ist ice xpi ali doc iou s"
-
-
-
-
-
-
-var splitInParts = function (s, partLength) {
-    let result = [];
-
-    for (var i = 0; i < s.length; i += partLength) {
-        result.push(s.slice(i, partLength + i));
-    }
-    return result.join(' ')
-}
