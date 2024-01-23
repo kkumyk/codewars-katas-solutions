@@ -14,9 +14,3 @@ function convert(number) {
 }
 
 console.log(convert("676584")) // "CAT
-
-
-// def convert(number):
-//     n = 2
-//     return ''.join([chr(int(number[i:i+n])) for i in range(0, len(number), n)])
-
