@@ -4,8 +4,6 @@ Timmy wants to replace these words with the word "awesome" to make the message m
 that replaces all occurrences of these offensive words with "awesome" in the input string phrase.
 */
 
-
-
 function filterWords(phrase) {
 
     let replacedWord = phrase.replace(/(bad|mean|ugly|horrible|hideous)/ig, 'awesome');
