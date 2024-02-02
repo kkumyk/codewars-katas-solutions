@@ -1,17 +1,3 @@
-#     let result = [];
-#     let wordsArray = s.split(" ");
-#
-#     for (let i = 0; i < wordsArray.length; i++) {
-#         if (result.indexOf(wordsArray[i]) === -1) {
-#             result.push(wordsArray[i]);
-#         }
-#     }
-#     return result.join(" ");
-# }
-#
-# // Solution 2
-# const removeDuplicateWords = s => [... new Set(s.split(" "))].join(" ");
-
 
 def remove_duplicate_words(s):
     result = []
