@@ -11,19 +11,19 @@ Example: "ace" is a subsequence of "abcde" while "aec" is not).
 
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
+        i, j = 0, 0
+        # 0 1 a b
+        # 1 2 a a
+        # 1 3 b a
+        # 2 4 b b
 
-        one, two  = "", ""
-        del_chars = list(set(t) - set(s))
-        
-        for l in list(s):
-            if l not in del_chars:
-                one += l
-        
-        for x in list(t):
-            if x not in del_chars:
-                two += x
-        
-        return one == two
+        while i < len(s) and j < len(t):  # 2 4 - four loops
+            if s[i] == t[j]:
+                i += 1
+            j += 1
+            
+        return i == len(s)
+
 
 solution = Solution()
-print(solution.isSubsequence("abc", "ahbgdc"))  # true
+print(solution.isSubsequence("ab", "baab"))  # true
